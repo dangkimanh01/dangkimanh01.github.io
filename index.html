@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin của KA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gradient.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="giaodien">
+        <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="contact-header">
+        <img src="images/avt.jpg" alt="Ảnh đại diện" class="avatar" />
+        <div class="contact-text">
+          <a href="index.html"> Đặng Kim Anh </a>
+          <i class="fa-solid fa-circle-check" style="color: #003ec4"></i>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fa-brands fa-studiovinari"></i>
+          <span class="contact-label">Học vấn:</span>
+          <a href="https://www.facebook.com/UIT.Fanpage" target="_blank"
+            >Trường Đại học Văn Lang, Thành phố Hồ Chí Minh</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-facebook"></i>
+          <span class="contact-label">Facebook:</span>
+          <a
+            href="https://www.facebook.com/photo/?fbid=567471199472153&set=a.112511751634769"
+            target="_blank"
+            >Đặng Kim Anh</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-instagram"></i>
+          <span class="contact-label">Instagram:</span>
+          <a href="https://www.instagram.com/_jocelyn.dang_/" target="_blank"
+            >_jocelyn.dang_
+          </a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-regular fa-envelope-open"></i>
+          <span class="contact-label">Gmail:</span>
+          <a href="">dangkimanh0301@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="more-inf">
+        <div class="caption">
+          <p>
+            Mình là Đặng Kim Anh, sinh viên ngành Marketing tại Đại học Văn
+            Lang. Mình có niềm đam mê với tiếp thị số, xây dựng thương hiệu và
+            nghiên cứu hành vi khách hàng. Mình luôn tìm kiếm cơ hội để học hỏi
+            và phát triển trong lĩnh vực này. Rất mong được kết nối và chia sẻ
+            cùng bạn!
+          </p>
+        </div>
+        <div class="favourites-container">
+          <button id="fv-btn" class="fv-button">
+            Sở thích của mình <i class="fas fa-chevron-down"></i>
+          </button>
+
+          <div class="favourites" id="favourites">
+            <div class="favourite">
+              <a href="#">
+                <div class="favourite-label">
+                  <h3>Thiết kế</h3>
+                  <img src="images/design.jpg" class="images" />
+                  <p>Canva, Photoshop</p>
+                </div>
+              </a>
+            </div>
+            <div class="favourite">
+              <a href="nhac.html">
+                <div class="favourite-label">
+                  <h3>Âm nhạc</h3>
+                  <img src="images/music.jpg" class="images" />
+                  <p>Diễm xưa</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form
+          id="message"
+          action="https://formspree.io/f/xdkaqggl"
+          method="POST"
+        >
+          <textarea
+            name="message"
+            class="feedback"
+            placeholder="Nhắn gì đó cho mình đi, hoàn toàn ẩn danh nên bạn yên tâm nhá"
+            required
+          ></textarea>
+          <button class="send-button" type="submit">Gửi</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
