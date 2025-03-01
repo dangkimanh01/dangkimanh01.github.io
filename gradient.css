@@ -16,7 +16,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  background-image: linear-gradient(60deg, #a79c33, #36937d, #d03535);
+  background-image: linear-gradient(60deg, #c70808, #c35e5e, #c94305);
   background-clip: text; /* Tiêu chuẩn, cho các trình duyệt hiện đại */
   -webkit-background-clip: text; /* Dành cho các trình duyệt WebKit cũ */
   color: transparent; /* Màu LN2k4 */
@@ -37,10 +37,10 @@
   color: #ffffff; /* Màu chữ khi bật dark theme */
 }
 .container.dark-theme .fv-button {
-  background-color: #2196f3;
+  background-color: #c52929;
 }
 .container.dark-theme .fv-button:hover {
-  background-color: #003ec4; /* Màu nền khi hover trong dark theme */
+  background-color: #891717; /* Màu nền khi hover trong dark theme */
 }
 .container.dark-theme .send-button {
   background-color: #3a3a3a;
@@ -97,7 +97,7 @@
 
 /* Khi checkbox được chọn (gạt sang phải) */
 input:checked + .slider {
-  background-color: #2196f3; /* Màu nền khi được chọn */
+  background-color: #c52929; /* Màu nền khi được chọn */
 }
 
 input:checked + .slider:before {
