@@ -9,7 +9,11 @@
 }
 
 .container.dark-theme .contact-info a {
-  color: #2196f3; /* Màu link khi dark theme */
+  color: #ffffff; /* Màu link khi dark theme */
+}
+
+.container.dark-theme .contact-item a:hover {
+  color: #632be7;
 }
 
 .container.dark-theme .contact-header a {

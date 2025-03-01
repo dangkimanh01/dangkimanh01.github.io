@@ -18,7 +18,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  background-image: linear-gradient(60deg, #891717, #c52929, #c94305);
+  background-image: linear-gradient(60deg, #891717, #c52929, #cf622f);
   background-clip: text; /* Tiêu chuẩn, cho các trình duyệt hiện đại */
   -webkit-background-clip: text; /* Dành cho các trình duyệt WebKit cũ */
   color: transparent;
@@ -62,9 +62,13 @@ body {
 }
 
 .contact-item a {
-  color: #0051ff;
+  color: #000000;
   text-decoration: none;
   margin-left: 5px;
+}
+
+.contact-item a:hover {
+  color: #511fc7;
 }
 
 .more-inf {
